@@ -526,7 +526,7 @@ h1, h2, h3, h4 {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background: #6b1a2a;
+  background: var(--charcoal);
   overflow: hidden;
   opacity: 0;
   pointer-events: none;
@@ -1023,7 +1023,7 @@ h1, h2, h3, h4 {
 }
 
 .pollen-card--featured {
-  background: #6b1a2a;
+  background: var(--charcoal);
   color: white;
   border-radius: var(--radius-2xl);
   padding: clamp(2rem, 4vw, 3rem);
@@ -1876,7 +1876,7 @@ h1, h2, h3, h4 {
    ========================================= */
 .testimonials-section {
   padding-block: var(--section-pad-y);
-  background: #6b1a2a;
+  background: var(--charcoal);
 }
 
 .testimonials-grid {
@@ -2495,7 +2495,7 @@ body.nav-open .jump-bar {
 
 .footer-legal {
   font-size: 0.775rem;
-  color: rgba(255,255,255,0.28);
+  color: rgba(255,255,255,0.55);
   display: flex;
   flex-wrap: wrap;
   gap: var(--sp-2) var(--sp-5);
@@ -2503,7 +2503,7 @@ body.nav-open .jump-bar {
 }
 
 .footer-legal a {
-  color: rgba(255,255,255,0.38);
+  color: rgba(255,255,255,0.65);
   text-decoration: underline;
   text-decoration-color: transparent;
   text-underline-offset: 3px;
@@ -2517,7 +2517,7 @@ body.nav-open .jump-bar {
 
 .footer-disclaimer {
   font-size: 0.73rem;
-  color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.45);
   line-height: 1.55;
   max-width: 680px;
 }
